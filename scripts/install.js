@@ -88,7 +88,7 @@ function checkAndFetchBinaries() {
 
 function fetch() {
   var url = [
-    'https://raw.githubusercontent.com/eskygo/node-sass-binaries/', process.sassBinaryName,
+    'https://raw.githubusercontent.com/eskygo/node-sass-binaries/master/', process.sassBinaryName,
     '/binding.node'
   ].join('');
   var dir = path.join(__dirname, '..', 'vendor', process.sassBinaryName);
